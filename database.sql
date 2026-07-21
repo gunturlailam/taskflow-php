@@ -18,7 +18,7 @@ CREATE TABLE kategori (
 -- Tabel tugas
 CREATE TABLE tugas (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    pengguna_id INT NOT NULL,
+    pengguna _id INT NOT NULL,
     kategori_id INT,
     judul VARCHAR(255) NOT NULL,
     deskripsi TEXT,
